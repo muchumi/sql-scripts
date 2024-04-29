@@ -1,3 +1,5 @@
+-- Shorthand CASE in SELECT; when using the short variant the entire statement is 
+evaluated at each WHEN
 create table items(
     Id integer primary key,
     ItemId integer not null unique,
